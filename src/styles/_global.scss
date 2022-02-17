@@ -1,0 +1,22 @@
+$p_color: green;
+$s_color: blue;
+
+html {
+   font-family: generalFont;
+}
+
+
+h1 {
+   color: $p_color;
+}
+
+.container {
+   &__subtitle {
+      display: flex;
+      justify-content: center;
+      color: $s_color;
+      display: block;
+      height: 140px;
+      background: url("../images/webpack.png");
+   }
+}
